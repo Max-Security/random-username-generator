@@ -22,7 +22,7 @@ for x in range(100):
 
 print(random_username)
 
-#This portion saves the usernames as the text file "random-usernames.txt", this can be changed if used more than once.
+#This portion saves the usernames to the current directory as the text file "random-usernames.txt" and can be changed if used more than once.
 
 with open("random-usernames.txt", "w") as file:
         file.write("/n" .join(random_username))
